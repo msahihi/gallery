@@ -198,7 +198,9 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
-  background-color: #fff;
+  background-image: url("../img/bg.png");
+  /*background-color: #fff;*/
+
 }
 input,
 button,
@@ -2575,7 +2577,7 @@ tbody.collapse.in {
   }
 }
 .navbar-default {
-  background-color: #152836;
+  /*background-color: #152836;*/
   border-color: #0e1a24;
 }
 .navbar-default .navbar-brand {
@@ -3211,7 +3213,7 @@ ol.linenums li {
   margin-bottom: 0;
 }
 .hero {
-  background-color: #152836;
+  /*background-color: #152836;*/
   color: #EEE;
   min-height: 540px;
 }
@@ -3357,21 +3359,17 @@ ol.linenums li {
   max-width: 85%;
   position: relative;
 }
-.demo-gallery > ul {
+.msb-gallery> ul {
   margin-bottom: 0;
 }
-.demo-gallery > ul > li {
+.msb-gallery> ul > li {
   margin-bottom: 15px;
 }
-.demo-gallery > ul > li a {
-  border: 3px solid #FFF;
-  border-radius: 3px;
-  display: block;
-  overflow: hidden;
-  position: relative;
-  float: left;
+.msb-gallery> a {
+  border: 1px solid #FFF;
+  border-radius: 2px;
 }
-.demo-gallery > ul > li a > img {
+.msb-gallery> a > img {
   -webkit-transition: -webkit-transform 0.15s ease 0s;
   -moz-transition: -moz-transform 0.15s ease 0s;
   -o-transition: -o-transform 0.15s ease 0s;
@@ -3380,14 +3378,14 @@ ol.linenums li {
   transform: scale3d(1, 1, 1);
   width: 100%;
 }
-.demo-gallery > ul > li a:hover > img {
+.msb-gallery> a:hover > img {
   -webkit-transform: scale3d(1.1, 1.1, 1.1);
   transform: scale3d(1.1, 1.1, 1.1);
 }
-.demo-gallery > ul > li a:hover .demo-gallery-poster > img {
+.msb-gallery> a:hover .demo-gallery-poster > img {
   opacity: 1;
 }
-.demo-gallery > ul > li a .demo-gallery-poster {
+.msb-gallery> a .demo-gallery-poster {
   background-color: rgba(0, 0, 0, 0.1);
   bottom: 0;
   left: 0;
@@ -3398,7 +3396,7 @@ ol.linenums li {
   -o-transition: background-color 0.15s ease 0s;
   transition: background-color 0.15s ease 0s;
 }
-.demo-gallery > ul > li a .demo-gallery-poster > img {
+.msb-gallery> a .demo-gallery-poster > img {
   left: 50%;
   margin-left: -10px;
   margin-top: -10px;
@@ -3409,10 +3407,10 @@ ol.linenums li {
   -o-transition: opacity 0.3s ease 0s;
   transition: opacity 0.3s ease 0s;
 }
-.demo-gallery > ul > li a:hover .demo-gallery-poster {
+.msb-gallery> a:hover .demo-gallery-poster {
   background-color: rgba(0, 0, 0, 0.5);
 }
-.demo-gallery .justified-gallery > a > img {
+.msb-gallery.justified-gallery > a > img {
   -webkit-transition: -webkit-transform 0.15s ease 0s;
   -moz-transition: -moz-transform 0.15s ease 0s;
   -o-transition: -o-transform 0.15s ease 0s;
@@ -3422,14 +3420,14 @@ ol.linenums li {
   height: 100%;
   width: 100%;
 }
-.demo-gallery .justified-gallery > a:hover > img {
+.msb-gallery.justified-gallery > a:hover > img {
   -webkit-transform: scale3d(1.1, 1.1, 1.1);
   transform: scale3d(1.1, 1.1, 1.1);
 }
-.demo-gallery .justified-gallery > a:hover .demo-gallery-poster > img {
+.msb-gallery.justified-gallery > a:hover .demo-gallery-poster > img {
   opacity: 1;
 }
-.demo-gallery .justified-gallery > a .demo-gallery-poster {
+.msb-gallery.justified-gallery > a .demo-gallery-poster {
   background-color: rgba(0, 0, 0, 0.1);
   bottom: 0;
   left: 0;
@@ -3440,7 +3438,7 @@ ol.linenums li {
   -o-transition: background-color 0.15s ease 0s;
   transition: background-color 0.15s ease 0s;
 }
-.demo-gallery .justified-gallery > a .demo-gallery-poster > img {
+.msb-gallery.justified-gallery > a .demo-gallery-poster > img {
   left: 50%;
   margin-left: -10px;
   margin-top: -10px;
@@ -3451,10 +3449,10 @@ ol.linenums li {
   -o-transition: opacity 0.3s ease 0s;
   transition: opacity 0.3s ease 0s;
 }
-.demo-gallery .justified-gallery > a:hover .demo-gallery-poster {
+.msb-gallery.justified-gallery > a:hover .demo-gallery-poster {
   background-color: rgba(0, 0, 0, 0.5);
 }
-.demo-gallery .video .demo-gallery-poster img {
+.msb-gallery.video .demo-gallery-poster img {
   height: 48px;
   margin-left: -24px;
   margin-top: -24px;
@@ -3464,10 +3462,10 @@ ol.linenums li {
 .demo-gallery.dark > ul > li a {
   border: 3px solid #04070a;
 }
-.home .demo-gallery {
+.home .msb-gallery{
   padding-bottom: 80px;
 }
-#aniimated-thumbnials .demo-gallery a {
+#aniimated-thumbnials .msb-gallerya {
   width: 190px;
   height: 132px;
 }

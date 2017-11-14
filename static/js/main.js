@@ -1,12 +1,14 @@
 var pageLoaded = false;
+
 $(document).ready(function() {
 
     function customizeGallery(trans, ease) {
+
         $('#lightgallery').lightGallery({
             loop: true,
             fourceAutoply: false,
             autoplay: false,
-            thumbnail: false,
+            thumbnail: true,
             pager: $(window).width() >= 768 ? true : false,
             speed: 400,
             scale: 1,
