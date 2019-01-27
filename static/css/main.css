@@ -3366,8 +3366,9 @@ ol.linenums li {
   margin-bottom: 15px;
 }
 .msb-gallery> a {
-  border: 1px solid #FFF;
+  /* border: 1px solid #eeeeee; */
   border-radius: 2px;
+  padding: 10px
 }
 .msb-gallery> a > img {
   -webkit-transition: -webkit-transform 0.15s ease 0s;
